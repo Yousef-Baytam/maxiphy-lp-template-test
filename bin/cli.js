@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 const getGitCloneCmd = (repoName) => {
-  return `git clone --depth 1 https:// ${repoName}`;
+  return `git clone --depth 1 https://github.com/Yousef-Baytam/maxiphy-lp-template-test.git ${repoName}`;
 };
 
 const getPackagesInstallationCmd = (repoName) => {
